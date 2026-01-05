@@ -29,13 +29,13 @@ ggplot(data=diamonds) +
 ggplot(data=penguins) +
   geom_point(mapping = aes(x=flipper_length_mm, y=body_mass_g, color=species)) +
   labs(title="Palmer Penguins: Body Mass vs Flipper", subtitle = "Sample of three species"
-       , caption = "Pedro Yuka") +
+       , caption = "Penguins data") +
   annotate("text", x=220, y=3500, label="Gentoos are the largest", color="blue",
            fontface= "bold", size=3.5, angle=13)
 
 t <- ggplot(data=penguins) +
   geom_point(mapping = aes(x=flipper_length_mm, y=body_mass_g, color=species)) +
   labs(title="Palmer Penguins: Body Mass vs Flipper", subtitle = "Sample of three species"
-       , caption = "Pedro Yuka")
+       , caption = "Penguins datas")
 
 t + annotate("TEXT", x=220, y=3500, label="gentoo are the best")
