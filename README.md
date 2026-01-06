@@ -3,7 +3,7 @@
 Este repositório contém um exemplo básico de análise de dados utilizando a biblioteca `ggplot2` em R, junto com sua funções de visualização.
 
 ## Bibliotecas Utilizadas
-
+- Dados de espécies de pinguins da antártica coletado por pesquisadores 
 - **ggplo2**: Biblioteca para manipulação de dados.
 
 ## Descrição do Código
